@@ -12,14 +12,16 @@
         glide: glide {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SPACE &kp LCTRL>;
+            bindings = <&kp SPACE>, <&macro_wait_time 0>, <&kp LCTRL>;
+
             label = "GLIDE";
         };
 
         strafe: strafe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&key_repeat &kp W>;
+            bindings = <&macro_release>, <&key_repeat &kp W>;
+
             label = "STRAFE";
         };
     };
@@ -42,8 +44,6 @@
 &kp LCTRL       &kp Z   &kp X   &kp C     &kp V   &kp B   &glide     &kp RBKT  &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
                                 &kp LALT  &kp H   &kp K   &strafe    &kp RET   &mo 0   &kp BSPC  &kp RGUI
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
