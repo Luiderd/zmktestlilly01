@@ -20,7 +20,7 @@
         strafe: strafe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp W &key_repeat>, <&macro_release>;
+            bindings = <&macro_press>, <&key_repeat &kp W>, <&macro_release>;
 
             label = "STRAFE";
         };
