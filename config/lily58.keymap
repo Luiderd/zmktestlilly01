@@ -12,16 +12,14 @@
         glide: glide {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SPACE>, <&macro_wait_time 2>, <&kp LCTRL>;
-
+            bindings = <&kp SPACE &kp LCTRL>;
             label = "GLIDE";
         };
 
         strafe: strafe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&key_repeat &kp W>, <&macro_release>;
-
+            bindings = <&key_repeat &kp W>;
             label = "STRAFE";
         };
     };
