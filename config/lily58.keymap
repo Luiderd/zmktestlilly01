@@ -23,9 +23,9 @@
             bindings =
                 <&to 1>,
                 <&macro_press>,
-                <&kp D &none &none &none &kp W>,
+                <&kp D &kp P &kp P &kp W>,
                 <&macro_release>,
-                <&kp D &kp W>,
+                <&kp D &kp W &kp P &kp P>,
                 <&macro_tap>,
                 <&msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &kp A &to 0>;
 
@@ -38,7 +38,7 @@
             bindings =
                 <&to 1>,
                 <&macro_press>,
-                <&kp A &none &none &none &kp W>,
+                <&kp A &kp P &kp P &kp P &kp W>,
                 <&macro_release>,
                 <&kp A &kp W>,
                 <&macro_tap>,
