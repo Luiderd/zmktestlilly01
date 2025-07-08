@@ -25,7 +25,9 @@
                 <&macro_press>,
                 <&kp D &none &none &none &kp W>,
                 <&macro_release>,
-                <&kp D &kp W &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &kp A &to 0>;
+                <&kp D &kp W>,
+                <&macro_tap>,
+                <&msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &kp A &to 0>;
 
             label = "MACROTESTTWO";
         };
@@ -38,7 +40,9 @@
                 <&macro_press>,
                 <&kp A &none &none &none &kp W>,
                 <&macro_release>,
-                <&kp A &kp W &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &kp D &to 0>;
+                <&kp A &kp W>,
+                <&macro_tap>,
+                <&msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &kp D &to 0>;
 
             label = "MACRORIGHT";
         };
