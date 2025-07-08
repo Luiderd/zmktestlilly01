@@ -20,14 +20,14 @@
         macrotoleft: macrotesttwo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kt D &none &none &none &kt W &kt D &kt W &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &kp A &to 0>;
+            bindings = <&to 1 &sk D &none &none &none &sk W &sk D &sk W &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &kp A &to 0>;
             label = "MACROTESTTWO";
         };
 
-        macrotoright: macroright {
+        macroright: macroright {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &kt S &kt W &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &kp D &to 0>;
+            bindings = <&to 1 &sk S &none &none &none &sk W &sk S &sk W &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &kp A &to 0>;
             label = "MACRORIGHT";
         };
     };
