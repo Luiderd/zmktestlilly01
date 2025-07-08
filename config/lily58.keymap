@@ -25,7 +25,15 @@
                <&macro_press &kp D>,
                 <&macro_press &kp W>,
                 <&macro_release &kp D &kp W>,
-                <&msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP>,
+                <&msc SCRL_UP>,
+                <&msc SCRL_UP>,
+                <&msc SCRL_UP>,
+                <&msc SCRL_UP>,
+                <&msc SCRL_UP>,
+                <&msc SCRL_UP>,
+                <&msc SCRL_UP>,      
+                <&msc SCRL_UP>,
+                <&msc SCRL_UP>,
                 <&macro_tap &kp A &to 0>;
                 
             label = "MACROTESTTWO";
