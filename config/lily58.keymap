@@ -26,16 +26,17 @@
                 <&macro_press &kp W>,
                 <&macro_release &kp D>,
                 <&macro_release &kp W>,
-                <&msc SCRL_UP>,
-                <&msc SCRL_UP>,
-                <&msc SCRL_UP>,
-                <&msc SCRL_UP>,
-                <&msc SCRL_UP>,
-                <&msc SCRL_UP>,
-                <&msc SCRL_UP>,      
-                <&msc SCRL_UP>,
-                <&msc SCRL_UP>,
-                <&macro_tap &kp A &to 0>;
+                <&mkp WHEEL_UP>,
+                <&mkp WHEEL_UP>,
+                <&mkp WHEEL_UP>,
+                <&mkp WHEEL_UP>,
+                <&mkp WHEEL_UP>,
+                <&mkp WHEEL_UP>,
+                <&mkp WHEEL_UP>,      
+                <<&mkp WHEEL_UP>,
+                <&mkp WHEEL_UP>,
+                <&macro_tap &kp A>,
+                <&macro_tap &to 0>;
                 
             label = "MACROTESTTWO";
         };
