@@ -22,11 +22,9 @@
             #binding-cells = <0>;
             bindings =
                 <&to 1>,
-                <&macro_press>,
-                <&kp D &kp P &kp P &kp W>,
-                <&macro_release>,
-                <&kp D &kp W &kp P &kp P>,
-                <&macro_tap>,
+               <&macro_press &kp D>,
+                <&macro_press &kp W>,
+                <&macro_release &kp D &kp W>,
                 <&msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &msc SCRL_UP &kp A &to 0>;
 
             label = "MACROTESTTWO";
